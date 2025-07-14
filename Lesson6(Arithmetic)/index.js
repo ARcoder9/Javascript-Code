@@ -16,5 +16,5 @@ console.log(multi);
 // formula ==> human age = (dog age - 2) * 4 + 21
 
 var dog_age = prompt("what is your dog_age?");
-var human_age = (dog_age - 2) * 4 + 21;
+var human_age = (g(dog_age - 2) * 4) + 21;
 alert("your dog age as compare to human is " + human_age);
