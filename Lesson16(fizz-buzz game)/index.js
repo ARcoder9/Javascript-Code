@@ -22,3 +22,26 @@ function fizzbuzz() {
   count = count + 1;
   console.log(output);
 }
+
+//method-2
+
+var output = []; //making array
+count = 1; // setup counter
+
+function fizzbuzz() {
+  if (count % 3 == 0 && count % 5 == 0) {
+    output.push("fizzbuzz"); 
+  } 
+  else if (count % 3 == 0) {
+    output.push("fizz");
+  } 
+  else if (count % 5 == 0) {
+    output.push("buzz");
+  }
+  else {
+    output.push(count);
+  }
+  count = count + 1;
+  console.log(output);
+}
+
