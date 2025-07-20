@@ -45,7 +45,7 @@ function fizzbuzz() {
   console.log(output);
 }
 
-// Method-3
+// Method-3   by using while loop
 
 var output = []; //making array
 count = 1; // setup counter
