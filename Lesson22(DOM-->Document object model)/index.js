@@ -21,8 +21,8 @@ document.querySelector("#heading")    // it select the element by the Id name.
 document.querySelector("li.item")                // it finds element in the same elements.
 document.querySelector("#list a")                // it is a hierarchical selector 
 document.querySelector("#list .item")            // it gives single element from this
-document.querySelectorAll("#list .item")         // it gives all the element under this id.
-document.querySelectorAll("#list .item")[1].style.color = "orange"; 
+document.querySelectorAll("#list .item")         // it gives all the element under this id in the form of array. 
+document.querySelectorAll("#list .item")[1].style.color = "orange";   // to select the particular item you have to give index.
 
 document.querySelector("li a").style.color = "cyan";
 
