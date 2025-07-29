@@ -1,5 +1,6 @@
 var numberofDrumButtons = document.querySelectorAll(".drum").length
 
+// detecting the keyboard press
 document.addEventListener("keydown", function (event) {
   console.log(event.key);
   makeSound(event.key)
@@ -48,6 +49,7 @@ function makeSound(key){      // making a function to do specific task in this c
   }
 }
 
+// Detecting the button press on the screeen
 
 for(var i =0; i<=numberofDrumButtons; i++){
 document.querySelectorAll(".drum")[i].addEventListener("click", function(){   // Event listner have two input1 specify what event it is listen to and input2 specify what it should do once the event get detected.   
