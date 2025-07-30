@@ -57,4 +57,4 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function(){   //
      var buttonInnnerHTML = this.innerHTML;
      makeSound(buttonInnnerHTML);
 });
-}
+} 
