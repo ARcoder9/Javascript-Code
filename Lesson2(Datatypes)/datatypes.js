@@ -29,3 +29,13 @@ console.log(typeof bool);
 // Functions: Callable objects that encapsulate reusable blocks of code.
 
 // Dates, Regular Expressions, Maps, Sets, etc.: Other built-in object types.
+
+let x = "Ayush";
+let y = 55;
+let z = 3.44;
+const p = true;
+let q = undefined;
+let r = null;
+
+console.log(x ,y, z, p, q, r);
+console.log(typeof x ,typeof y, typeof z, typeof p, typeof q, typeof r);
