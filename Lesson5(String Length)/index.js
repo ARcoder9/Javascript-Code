@@ -11,6 +11,15 @@ console.log(ans);     // if you want to know how many character you will get for
 
 console.log(name.toUpperCase());   // to change the string to Uppercase
 console.log(name.toLowerCase());   // to change the string to Lowercase
+console.log(name.length);
+
+let real_name = "Ayush";
+let friend = "Devendra";
+console.log(`My name is ${real_name} and my friend name is bhadwa ${friend}`);
+console.log(real_name.replace("sh", "77"));      // It repalce the character in the string.
+console.log(real_name.charAt(3));
+console.log(real_name.indexOf("s"));
+
 
 // Challenge Question:- only the first letter of the input name is capitalize
 
