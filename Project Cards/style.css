@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    border: 2px solid black;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.image img{
+    width: 200px;
+}
+
+.image{
+    position: relative;
+}
+
+.txt h1, p{
+    padding: 2px, 0;
+}
+
+.capsule{
+    position: absolute;
+    bottom: 2px;
+    z-index: 10;
+    right: 2px;
+    background-color: #242020;
+    opacity: 0.9;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
